@@ -11,7 +11,7 @@
 		"url": "https://github.com/ced-dev/piface"
 	},
 	"author": {
-		"name": "Cedric Marquis",
+		"name": "Ced-Dev",
 		"email": "contact@cmarquis.net"
 	},
 	"main": "./build/Release/pfio",
