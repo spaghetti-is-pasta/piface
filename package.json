@@ -1,28 +1,28 @@
 {
-	"name": "piface",
-	"description": "Raspberry Pi PiFace",
-	"version": "1.0.0",
-	"keywords": [
-		"PiFace",
-		"Raspberry Pi"
-	],
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/ced-dev/piface"
-	},
-	"author": {
-		"name": "Ced-Dev",
-		"email": "contact@cmarquis.net"
-	},
-	"main": "./build/Release/pfio",
-	"engines": {
-		"node": ">= 4.0.0"
-	},
-	"dependencies": {
-		"node-gyp": ">= 2.0.0"
-	},
-	"scripts": {
-		"install": "node-gyp rebuild"
-	},
-	"private": false
+  "name": "piface",
+  "description": "Raspberry Pi PiFace",
+  "version": "2.0.1",
+  "keywords": [
+    "PiFace",
+    "Raspberry Pi"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ced-dev/piface"
+  },
+  "author": {
+    "name": "Cedric Marquis",
+    "email": "contact@cmarquis.net"
+  },
+  "main": "./build/Release/pfio",
+  "engines": {
+    "node": ">= 4.0.0"
+  },
+  "dependencies": {
+    "node-gyp": ">= 2.0.0"
+  },
+  "scripts": {
+    "install": "node-gyp rebuild"
+  },
+  "private": false
 }

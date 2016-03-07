@@ -1,6 +1,15 @@
 #include <node.h>
 #include <v8.h>
-#include <libpiface-1.0/pfio.h>
+#include "pfio.h"
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <unistd.h>
+#include <fcntl.h>
+#include <linux/spi/spidev.h>
+#include <linux/types.h>
+#include <sys/ioctl.h>
 
 using namespace v8;
 
