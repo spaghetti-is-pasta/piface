@@ -1,5 +1,5 @@
 ### About
-Simple standalone NodeJS (v4+ or v5+) module for the Raspberry PiFace
+Simple wrapper for the PiFace and NodeJS (v4+ or v5+)
 
 ### Installation
 Note: recent Kernel versions need Device-Tree to be disabled in order to use SPI.
@@ -8,6 +8,18 @@ Note: recent Kernel versions need Device-Tree to be disabled in order to use SPI
 
 Follow the instructions available here:
 https://nodejs.org/en/download/package-manager/
+
+- Download, build and install the C libraries
+
+```
+sudo apt-get install automake libtool git
+git clone https://github.com/thomasmacpherson/piface.git
+cd piface/c
+./autogen.sh && ./configure && make && sudo make install
+sudo ldconfig
+cd ../scripts
+sudo ./spidev-setup
+```
 
 - Install the PiFace NodeJS module
 
