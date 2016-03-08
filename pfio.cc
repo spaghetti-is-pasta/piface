@@ -1,6 +1,6 @@
 #include <node.h>
 #include <v8.h>
-#include "pfio.h"
+#include <libpiface-1.0/pfio.h>
 
 using namespace v8;
 
