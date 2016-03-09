@@ -1,7 +1,7 @@
 {
   "name": "piface",
   "description": "Raspberry Pi PiFace",
-  "version": "2.0.7",
+  "version": "2.0.8",
   "keywords": [
     "PiFace",
     "Raspberry Pi"
@@ -21,6 +21,9 @@
   "dependencies": {},
   "scripts": {
     "install": "node-gyp rebuild"
+  },
+  "config": {
+    "unsafe-perm": true
   },
   "private": false
 }
