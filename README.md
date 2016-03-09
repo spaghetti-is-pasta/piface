@@ -1,5 +1,5 @@
 ### About
-Simple wrapper for the PiFace and NodeJS (v4+ or v5+)
+Simple wrapper for the <a href="http://www.piface.org.uk/products/piface_digital/" target="_new">PiFace Digital</a> and NodeJS (v4+ or v5+)
 
 ### Installation
 Note: recent Kernel versions need Device-Tree to be disabled in order to use SPI.
