@@ -9,6 +9,12 @@ Note: recent Kernel versions need Device-Tree to be disabled in order to use SPI
 Follow the instructions available here:
 https://nodejs.org/en/download/package-manager/
 
+(Optional) Update `npm` and `node-gyp`
+```
+npm install -g npm@latest
+npm install -g node-gyp@latest
+```
+
 - Download, build and install the C libraries
 
 ```
