@@ -41,7 +41,7 @@ var pfio = require("piface");
 pfio.init();
 var i = 0;
 for (i = 0; i < 8; i++) {
-    console.log("Pin #" + i + " = " + pfio.digital_read(0));
+    console.log("Pin #" + i + " = " + pfio.digital_read(i));
 }
 
 i = -1;
